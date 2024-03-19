@@ -1,0 +1,5 @@
+.dragBox {
+    height: 100px;
+    width: 400px;
+    border: 1px dashed #000;
+}
