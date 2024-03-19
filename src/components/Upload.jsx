@@ -74,7 +74,7 @@ const Upload = () => {
                 {files.map((item) => (
                     <div class="flex flex-row gap-10">
                         <p className='font-medium cursor-pointer' onClick={() => openInTab(item)}>{item.name.slice(0, 9)}</p>
-                        <button onClick={() => removeFile(item)} className='font-bold text-red-900 cursor-pointer'>X</button>
+                        <button onClick={() => removeFile(item)} className='font-bold text-red-400 cursor-pointer'>X</button>
                     </div>
                 ))}
             </div>
